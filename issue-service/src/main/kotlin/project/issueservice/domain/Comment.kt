@@ -20,5 +20,5 @@ class Comment (
     val userName: String,
 
     @Column
-    val body: String,
+    var body: String,
 ) : BaseEntity()
